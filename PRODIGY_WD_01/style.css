@@ -76,6 +76,10 @@ body{
 #sidebar a:hover, #sidebar .dropdown-btn:hover{
     background-color: var(--hover-clr);
 }
+.BaseLanding{
+    height: 100vh;
+    text-align: center;
+}
 main{
     padding: min(30px, 7%);
 }
