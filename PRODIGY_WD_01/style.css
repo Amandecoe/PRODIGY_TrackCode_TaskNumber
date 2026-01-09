@@ -76,6 +76,12 @@ body{
 #sidebar a:hover, #sidebar .dropdown-btn:hover{
     background-color: var(--hover-clr);
 }
+#sidebar .sub-menu{
+   display:none;
+}
+#sidebar .sub-menu.show{
+   display:block;
+}
 .BaseLanding{
     height: 100vh;
     text-align: center;
