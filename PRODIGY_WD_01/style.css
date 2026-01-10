@@ -29,6 +29,9 @@ body{
     padding: 5px 1em;
     background-color: var(--base-clr);
     border-right:1px solid var(--line-clr);
+    position: sticky;
+    top:0;
+    align-self:start;
 }
 #sidebar ul{
     list-style: none;
@@ -63,6 +66,27 @@ body{
     border: none;
     font: inherit;
     cursor: pointer;
+}
+#sidebar svg{
+    flex-shrink:0;
+    fill: var(--text-clr);
+}
+#sidebar a span, #sidebar .dropdown-btn span{
+    flex-grow: 1;
+}
+#sidebar a:hover, #sidebar .dropdown-btn:hover{
+    background-color: var(--hover-clr);
+}
+#sidebar .sub-menu{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 300ms ease-in-out;
+  > div{
+    overflow: hidden;
+  }
+}
+#sidebar .sub-menu.show{
+  grid-template-rows: 1fr;
 }
 main{
     padding: min(30px, 7%);
