@@ -89,7 +89,12 @@ body{
 #sidebar .sub-menu.show{
    grid-template-rows: 1fr;
 }
-
+.rotate svg:last-child{
+    rotate:180deg;
+}
+.dropdown-btn svg{
+    transition: 200ms ease;
+}
 .BaseLanding{
     height: 100vh;
     text-align: center;
