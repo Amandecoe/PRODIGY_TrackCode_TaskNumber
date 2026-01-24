@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body{
- font-family:'Work Sans';
+ font-family:'futura';
     box-sizing: border-box;
     height:100%;
     width:100%;
@@ -53,8 +53,17 @@ body{
    height:330px;
    width: 350px;
    margin:20px;
-   padding:30px;
+   padding:40px;
    background: rgb(37, 37, 37);
+}
+#AboutB svg{
+  flex-shrink:0;
+    fill: var(--text-clr);
+    margin:10px;
+    font-size:20px;
+}
+#aboutheader{
+ margin-bottom: 30px;
 }
 .stroke{
   -webkit-text-stroke: 2px goldenrod;
