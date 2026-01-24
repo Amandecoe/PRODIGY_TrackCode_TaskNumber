@@ -55,6 +55,16 @@ body{
 .away{
  transform-origin: bottom left;
 }
+.mainlanding{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.mainlanding button{
+  width:10%;
+}
 .button{
   padding:10px;
   border-radius:25px;
@@ -63,13 +73,43 @@ body{
   font-weight: bold;
   color:white;
   background-color: black;
+
 }
 #headers{
   margin:20px;
-  font-size:50px;
+  font-size:70px;
+  text-align: center;
 }
 .para{
-  font-size:20px;
+  font-size:25px;
   text-align: center;
+  padding:30px;
+}
+#transpbutton{
+  margin-bottom:70px;
+  border-radius: 20px;
+  padding:5px;
+  color: purple;
+  background: transparent;
+  border: 2.5px solid rgba(255, 0, 255, 0.372);
+}
+.navbar{
+  display:flex;
+  list-style: none;
+  padding:30px;
+  margin:5px;
+  justify-content: flex-end;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+  gap:10px;
+}
+.navbar ul{
+  display: flex;
+  gap:40px;
+  list-style: none;
   padding:20px;
+}
+.navbar li{
+  float:left;
 }
