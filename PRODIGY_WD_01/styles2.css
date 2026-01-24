@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.ancientbackground {
+  background-image: url("assets/julius_cesars_empty_audience.jpg");
+}
+.medievalbackground {
+  background-image: url("assets/Why-Middle-Ages-.webp");
+}
+.renaissancebackground {
+  background-image: url("assets/renaissance.jpg");
+}
+.modernbackground {
+  background-image: url("assets/modern.jpg");
+}
+.informationbackground {
+  background-image: url("assets/infoage.jpg");
+}
+.earlybackground {
+  background-image: url("assets/earlymodernimages.jpg");
+}
+.industrialbackground {
+  background-image: url("assets/industrial.jpg");
+}
+#allbackground{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -2;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.65;
+  z-index: -1;
+}
+.container{
+    color: white;
+
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.innerbox{
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.description{
+
+    width: 500px;
+}
+.image{
+    align-self: center;
+}
+img{
+    width:300px;
+}
