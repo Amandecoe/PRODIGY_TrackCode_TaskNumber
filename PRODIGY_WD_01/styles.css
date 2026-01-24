@@ -55,5 +55,21 @@ body{
 .away{
  transform-origin: bottom left;
 }
-
-
+.button{
+  padding:10px;
+  border-radius:25px;
+  margin:30px;
+  font-size:15px;
+  font-weight: bold;
+  color:white;
+  background-color: black;
+}
+#headers{
+  margin:20px;
+  font-size:50px;
+}
+.para{
+  font-size:20px;
+  text-align: center;
+  padding:20px;
+}
