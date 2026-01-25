@@ -275,3 +275,10 @@ nav ul li:first-of-type {
   gap:40px;
   list-style: none;
 }
+.footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:80px;
+  padding:30px;
+}
