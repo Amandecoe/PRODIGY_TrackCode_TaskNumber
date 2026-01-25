@@ -202,6 +202,17 @@ hr{
     border:0.1px solid rgb(158, 155, 155);
     border-radius: 20px;
 }
+.colsi:hover{
+  background-color: black;
+  color:white;
+  transform:rotate(-10deg);
+  transition-duration: 0.5s;
+}
+.navbar.scroll{
+  border:1px solidrgb(103, 102, 102)k;
+  background:rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
 .colsi h2{
   margin:10px;
 }
@@ -227,11 +238,12 @@ hr{
   margin:0px;
   justify-content: center;
   position:sticky;
-  top: 0;
+  top: 20px;
   z-index: 1000;
   gap:10px;
   width:100%;
   cursor:pointer;
+  transition: background-color 0.3s, border-bottom 0.3s;
 }
 nav ul li:first-of-type {
   margin-right: auto !important;

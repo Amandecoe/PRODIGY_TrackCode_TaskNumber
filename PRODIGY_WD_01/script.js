@@ -35,3 +35,15 @@ window.addEventListener("scroll", () => {
   }
     rotateCards();
 });
+
+let navbar = document.querySelector('.navbar')
+let scrollthreshold = 50;
+window.addEventListener("scroll", function scrolling(){
+
+  if (window.scrollY>scrollthreshold){
+    navbar.classList.add('scroll');
+  }else{
+   navbar.classList.remove('scroll')
+  }
+
+})
