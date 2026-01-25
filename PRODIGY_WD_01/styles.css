@@ -62,6 +62,10 @@ body{
 }
 .rightlanding {
   flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .mainlanding{
   display:flex;
@@ -70,8 +74,12 @@ body{
   align-items: center;
   justify-content: center;
 }
-.mainlanding button{
-  width:300px;
+.button{
+  display: flex;
+  justify-content: center;
+}
+.rightlanding button{
+  width:200px;
 }
 .imgsc{
   flex:1;
