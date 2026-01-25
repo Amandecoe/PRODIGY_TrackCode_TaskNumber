@@ -134,7 +134,7 @@ hr{
   width:500px;
   height:300px;
   border-radius: 25px;
-  border: 0.5px solid black;
+  border: 0.1px solid rgb(150, 149, 149);
   padding:50px;
 }
 .button{
@@ -161,6 +161,11 @@ hr{
   text-align: center;
   padding:10px;
 }
+#aboutT{
+  text-align: center;
+  margin-top:50px;
+  font-size:50px;
+}
 .Cols{
   display: flex;
   justify-content: center;
@@ -174,13 +179,26 @@ hr{
     width: 350px;
     margin:20px;
     padding:30px;
-    border:0.3px solid black;
+    border:0.1px solid rgb(158, 155, 155);
     border-radius: 20px;
+}
+.colsi h2{
+  margin:10px;
+}
+.colsi p{
+  padding:10px;
+  margin:10px;
+}
+.colsi h4{
+  padding:10px;
 }
 .Class-bottom{
    display:flex;
     width:100%;
     justify-content: space-between;
+}
+.Class-bottom a{
+  color:black;
 }
 .navbar{
   display:flex;
