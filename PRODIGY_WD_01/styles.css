@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-   font-family:'futura';
+   font-family:'sans-sarif';
     box-sizing: border-box;
     height:fit-content;
     width:100%;
     margin:0;
-    padding:0;
+    padding:60px;
     color:black;
     background-color: white;
 }
@@ -55,20 +55,80 @@ body{
 .away{
  transform-origin: bottom left;
 }
+.card img{
+ box-sizing: border-box;
+ width:150px;
+ height:auto;
+}
+.rightlanding {
+  flex:1;
+}
 .mainlanding{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
 .mainlanding button{
-  width:10%;
+  width:300px;
+}
+.imgsc{
+  flex:1;
+  min-width:0;
+}
+.imgsc img{
+ width:100%;
+ height:auto;
+ display: block;
+}
+.mini-landing{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+  padding:30px;
+  box-sizing: border-box;
+  width: 90vw;
+  height: 50vh;
+}
+.mini-landing ul li{
+  list-style-type:circle;
+  margin:10px;
+  text-align: left;
+}
+.mini-landing p{
+  font-size:20px;
+  margin:10px;
+  text-align: left;
+}
+.mini-landing h2{
+  text-align: left;
+  font-weight: 400px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.why{
+  text-align: center;
+  font-size: 40px;
+}
+.whyp{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top:20px;
+  font-size: 30px;
+}
+.inner{
+  width:500px;
+  height:300px;
+  border-radius: 25px;
+  border: 0.5px solid black;
+  padding:50px;
 }
 .button{
   padding:10px;
   border-radius:25px;
-  margin:30px;
+  margin-top:30px;
   font-size:15px;
   font-weight: bold;
   color:white;
@@ -77,13 +137,17 @@ body{
 }
 #headers{
   margin:20px;
-  font-size:70px;
+  font-size:50px;
+  text-align: center;
+}
+.mainpara{
+  font-size: 20px;
   text-align: center;
 }
 .para{
-  font-size:25px;
+  font-size:20px;
   text-align: center;
-  padding:30px;
+  padding:10px;
 }
 #transpbutton{
   margin-bottom:70px;
@@ -96,9 +160,9 @@ body{
 .navbar{
   display:flex;
   list-style: none;
-  padding:30px;
-  margin:5px;
-  justify-content: flex-end;
+  padding:0;
+  margin:0px;
+  justify-content: center;
   position:sticky;
   top: 0;
   z-index: 1000;
@@ -109,6 +173,11 @@ body{
   gap:40px;
   list-style: none;
   padding:20px;
+  margin-right: 50px;
+}
+.navbar ul:first-child{
+  display: flex;
+  justify-content: flex-start;
 }
 .navbar li{
   float:left;
