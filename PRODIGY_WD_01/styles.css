@@ -131,6 +131,12 @@ hr{
   font-size: 50px;
   margin-bottom: 20px;
 }
+.inner:hover{
+  color:white;
+  background-color: black;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
 .why{
   text-align: center;
   font-size: 40px;
@@ -166,6 +172,13 @@ hr{
   color:white;
   background-color: black;
 
+}
+.button:hover{
+  color:black;
+  background-color: white;
+  border:1px solid white;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
 }
 #headers{
   margin:20px;
@@ -247,6 +260,10 @@ hr{
 }
 nav ul li:first-of-type {
   margin-right: auto !important;
+}
+.navbar ul li:hover{
+  transform: scale(1.4);
+  transition-duration:0.5s;
 }
 .nav-links{
   display:flex;
