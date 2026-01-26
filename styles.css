@@ -282,3 +282,6 @@ nav ul li:first-of-type {
   gap:80px;
   padding:30px;
 }
+.footer svg:hover{
+  transform: scale(1.2);
+}
