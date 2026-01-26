@@ -284,4 +284,5 @@ nav ul li:first-of-type {
 }
 .footer svg:hover{
   transform: scale(1.2);
+  transition-duration: 0.3;
 }
