@@ -60,3 +60,5 @@ const observer = new IntersectionObserver((entries)=> {
      }
   })
 })
+
+hiddenelements.forEach(el) = observer.observe(el); //loops over all elements saved in the hiddenelements variable
