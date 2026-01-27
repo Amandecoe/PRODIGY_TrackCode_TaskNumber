@@ -48,15 +48,15 @@ window.addEventListener("scroll", function scrolling(){
 
 })
 
-let hiddenelements = document.querySelectorAll('.hidden')
+let hiddenelements = document.querySelectorAll('.hidden') //is an intersection observer, it can observe multiple entries hence why we use forEach
 const observer = new IntersectionObserver((entries)=> {
   entries.forEach((entry)=>{
      console.log(entry)
-     if (entry.isIntersecting){
+     if (entry.isIntersecting){ //checks if that entry is intersecting the viewport or not
       entry.target.classList.add('show');
      }
      else{
-      entry.target.classList.remove('show')
+      entry.target.classList.remove('show') //shows the animation multiple times by removing it when it is not intersecting and then adding it back when intersecting
      }
   })
 })
