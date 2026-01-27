@@ -53,7 +53,7 @@ const observer = new IntersectionObserver((entries)=> {
   entries.forEach((entry)=>{
      console.log(entry)
      if (entry.isIntersecting){ //checks if that entry is intersecting the viewport or not
-      entry.target.classList.add('show');
+      entry.target.classList.add('show')
      }
      else{
       entry.target.classList.remove('show') //shows the animation multiple times by removing it when it is not intersecting and then adding it back when intersecting
@@ -61,4 +61,4 @@ const observer = new IntersectionObserver((entries)=> {
   })
 })
 
-hiddenelements.forEach(el) = observer.observe(el); //loops over all elements saved in the hiddenelements variable
+hiddenelements.forEach((el) => observer.observe(el)); //loops over all elements saved in the hiddenelements variable
